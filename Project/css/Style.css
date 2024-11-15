@@ -1,0 +1,130 @@
+header{
+    background-color: #2e2d2d;
+    color: azure;
+    padding: 18px;
+    text-align: center;
+}
+
+
+h1{
+    color: #e94c0e;
+    font-size: 50px;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: normal;
+}
+      
+
+.Logo {
+    width: 10cm;
+    height: 10cm;
+}
+
+
+.nav_lista{
+    background-color: #e94c0e;
+    font-size: 20px;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: normal;
+}
+
+
+h3{
+    color: black;
+    font-size: 24px;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: normal;
+}
+
+
+.contenedor-productos{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.Producto {
+    background-color: #e94c0e;
+    width:  30%;
+    margin-bottom:20px ;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+} 
+
+
+.Producto img{
+    max-width: 100%; /*      la imagen ocupe el 100% del contenedor */
+    height: auto; /* mantiene la proporcion de la imagen
+ */
+    }
+
+
+.Producto p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:hsl(0, 0%, 100%)
+   }
+
+
+.Producto button {
+    background-color: #2e2d2d;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #2e2d2d;
+    color: black;
+    font-size: 18px;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+
+@media (max-width: 1600px) {
+    .Contactanos{
+        width: 90%;
+        padding: 10px;
+        color: black;
+        }
+    .label{
+        width: 90%;
+        padding: 10px;
+        box-sizing: border-box 10px;
+        border: 1px solid #e94c0e;
+        border-radius: 5px;}
+    }
+
+@media (max-width: 992px) {
+    .Contactanos{
+        width: 90%;
+        padding: 5px;
+        color: black;
+        }
+    .label{
+        width: 90%;
+        padding: 5px;
+        box-sizing: border-box 10px;
+        border: 1px solid #e94c0e;
+        border-radius: 5px;}
+    }
+
+@media (max-width: 600px) {
+    .Contactanos{
+        width: 90%;
+        padding: 2px;
+        color: black;
+        }
+    .label{
+        width: 90%;
+        padding: 2px;
+        box-sizing: border-box 10px;
+        border: 1px solid #e94c0e;
+        border-radius: 5px;}
+    }
+
